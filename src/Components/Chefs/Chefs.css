@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.Chefs p{
+    display: flex;
+    font-size: 17px;
+    justify-content: center;
+    font-weight: bold;
+    color: orange;
+    font-family: pacific,cursive;
+    
+
+}
+.Chefs h1{
+    display: flex;
+    font-weight: bold;
+    color: black;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 40px
+}
+
+.Chefss{
+    display: flex;
+    flex-direction: row;
+    /* border: 10px solid rgb(223, 220, 220); */
+    /* justify-content: space-between; */
+    height: 250px;
+    padding: 20px;
+    gap: 20px;
+
+}
+.chefsss1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Chefs1{
+    flex: 1;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-right: 20px;
+    
+}
+
+
+.Chefs1 img{
+    display: flex;
+    height: 67%;
+    width: 87%;
+    border-radius: 200px;
+    padding: 10px;
+   
+
+}
+
+.Chefs h3{
+    display: flex;
+    justify-content: center;
+}
+.Chefs h6{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+.chefsss2{
+    display: flex;
+    flex-direction: row;
+
+}
+.Chefs2{
+    flex: 1;
+    justify-content: space-between;
+    border: 1px solid black;
+    flex-direction: row;
+}
+.Chefs2 img{
+    display: flex;
+    height: 67%;
+    width: 87%;
+    border-radius: 200px;
+    padding: 10px;
+   
+   
+
+}
+.Chefs3{
+    flex: 1;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+.Chefs3 img{
+    display: flex;
+    height: 67%;
+    width: 87%;
+    border-radius: 200px;
+    padding: 10px;
+   
+   
+
+}
+.Chefs4{
+    flex: 1;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.Chefs4 img{
+    display: flex;
+    height: 67%;
+    width: 87%;
+    border-radius: 200px;
+    padding: 10px;
+}
+
+/* Tablet and above (768px+) */
+@media (min-width: 768px) {
+    .about{
+        display: flex;
+        flex-direction: row;
+    }
+  }
+  /* Mobile-specific styles (up to 767px) */
+@media (max-width: 767px) {
+    .Chefss{
+        display: flex;
+        flex-direction: column;
+    }
+}
+

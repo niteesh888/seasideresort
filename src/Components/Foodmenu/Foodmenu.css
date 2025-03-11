@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.foodmenu{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.menu-head{
+    /* border: 1px solid black; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.menu-head h3{
+    color: #FEA116;
+    font-family: pasific,cursive;
+    margin-bottom: 10px;
+}
+.menu-opp{
+    /* border: 1px solid black; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.menu-opp1{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+.menu-opp1 p{
+    margin-right: 28px;
+}
+.menu-opp1 img{
+    width: 40px;
+}
+.menu-opp2{
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+}
+.menu-opp2 button{
+    margin-right: 20px;
+    padding: 0px 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+.menu-opp2 button.active{
+    border-bottom:3px solid #FEA116;
+}
+.menu{
+    /* border: 1px solid black; */
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu1{
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+.item img{
+    width:100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.item-inner{
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+.item-inner1{
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 0;
+}
+.item-inner h2{
+    color: #FEA116;
+}
+.item-inner2{
+    margin-top: 10px;
+}
+/* Tablet and above (768px+) */
+@media (min-width: 768px) {
+    .about{
+        display: flex;
+        flex-direction: row;
+    }
+  }
+  /* Mobile-specific styles (up to 767px) */
+@media (max-width: 767px) {
+   .menu{
+    display: flex;
+    flex-direction: column;
+   }
+}

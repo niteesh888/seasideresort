@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.about3 h6{
+    display: flex;
+    flex-wrap: wrap;
+    color: orange;
+    font-family: pacifico,cursive;
+    font-size: 20px;
+    justify-content: center;
+    /* margin-top: 100px; */
+
+}
+
+.about3 h4{
+    display: flex;
+    color: black;
+    font-size: 40px;
+    margin-top: 15px;
+    justify-content: center;
+
+}
+
+
+
+.comment{
+    display: flex;
+    margin-top: 30px;
+    border-top: .5px solid rgb(217, 210, 210);
+    /* justify-content: space-between; */
+    background-color: #F1F8FF;
+
+
+}
+.comment1{
+    flex: 1;
+    /* justify-content: space-between; */
+    border-right: 1px solid rgb(217, 210, 210);
+    border-left: .5px solid rgb(217,210,210);
+}
+
+.comment1 img{
+    display: flex;
+    height: 11%;
+    width: 13%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.comment p{
+    display: flex;
+    padding-left: 20px;
+    color: black;
+}
+.comment h5{
+    display: flex;
+    font-size: 15px;
+    padding: 18px;
+    font-weight: normal;
+    text-align: start;
+    color: #666565;
+    font-weight: 500;
+}
+.profile img{
+    display: flex;
+    /* height: 50%; */
+    width: 67%;
+    /* padding-left: 20px; */
+    margin-top: -2px;
+    
+}
+.comment2{
+    flex: 1;
+    /* justify-content: space-between; */
+    border-right: .5px solid rgb(217,210,210);
+}
+.comment2 img{
+    display: flex;
+    height: 11%;
+    width: 13%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.avatar img{
+    display: flex;
+    width: 67%;
+    
+    
+}
+
+.comment3{
+    flex: 1;
+    /* justify-content: space-between; */
+    border-right: .5px solid rgb(217,210,210);
+}
+.comment3 img{
+    display: flex;
+    height: 11%;
+    width: 13%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.avatar2 img{
+    display: flex;
+    width: 67%;
+    
+    
+}
+
+/* Tablet and above (768px+) */
+@media (min-width: 768px) {
+    .comment{
+        display: flex;
+        flex-direction: row;
+    }
+    }
+  
+  /* Mobile-specific styles (up to 767px) */
+@media (max-width: 767px) {
+    .comment{
+        display: flex;
+        flex-direction: column;
+    
+    }
+}

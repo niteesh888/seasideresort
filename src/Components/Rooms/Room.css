@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.about3 p{
+    display: flex;
+    flex-wrap: wrap;
+    color: orange;
+    font-family: pacifico,cursive;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    /* margin-top: 100px; */
+
+}
+
+.about3 h2{
+    display: flex;
+    color: black;
+    font-size: 40px;
+    margin-top: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.rooms{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 60vh;
+    
+    
+
+}
+.rooms1{
+    flex: .5;
+    /* border: 1px solid black; */
+}
+.rooms2{
+    flex: 1;
+    display: flex;
+    /* border: 1px solid black; */
+    margin-right: 30px;
+    flex-direction: column;
+}
+.subrooms3{
+    flex: .7;
+    /* border: 1px solid black; */
+
+}
+.subrooms3 p{
+    display: flex;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 20px;
+
+}
+.subrooms3 h5{
+    display: flex;
+    color: black;
+    font-size: 16px;
+    margin-left: 30px;
+
+}
+.subrooms3 h3{
+    display: flex;
+    color: black;
+    font-size: 17px;
+    margin-left: 0px;
+
+}
+
+
+
+.subrooms4{
+    flex: 1;
+    /* border: 1px solid black; */
+}
+.subrooms4 img{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.8s ease-in-out;
+
+
+}
+.subrooms4 img:hover{
+    transform: scale(1.1);
+    
+}
+
+.rooms3{
+    flex: 1;
+    display: flex;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    margin-right: 30px;
+}
+.subrooms1{
+    flex: 1;
+    /* border: 1px solid black; */
+
+}
+.subrooms1 p{
+    display: flex;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 20px;
+
+}
+.subrooms1 h5{
+    display: flex;
+    color: black;
+    font-size: 16px;
+    margin-left: 30px;
+
+}
+.subrooms1 h3{
+    display: flex;
+    color: black;
+    font-size: 17px;
+    margin-left: 0px;
+
+}
+
+.subrooms2{
+    flex: 1;
+    /* border: 1px solid black; */
+}
+.subrooms2 img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s ease-in-out;
+
+}
+.subrooms2 img:hover{
+    transform: scale(1.1);
+    
+}
+
+.rooms4{
+    flex: .5;
+    /* border: 1px solid black; */
+}
+@media (min-width: 768px) {
+    .rooms{
+        display: flex;
+        flex-direction: row;
+    }
+  }
+  @media (max-width: 768px) {
+    .rooms2{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
