@@ -6,6 +6,7 @@ import Gallery from '../Gallery/Gallery'
 import Contact from '../Contact/Contact'
 import Comments from '../Comments/Comments'
 
+
 function MainPage() {
 
     return (
@@ -18,6 +19,7 @@ function MainPage() {
           <Gallery />
           <Comments />
           <Contact />
+          
           
         </div>
         
