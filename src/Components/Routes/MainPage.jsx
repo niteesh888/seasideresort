@@ -12,7 +12,7 @@ function MainPage() {
     return (
       <>
         <div>
-          <Header />
+          {/* <Header /> */}
           <Banner />
           <About />
           <Room />

@@ -86,7 +86,61 @@
     padding: 1px;
 
 }
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FFA726; /* Orange Color */
+    color: #FFA726;
+    border: none;
+    border-radius: 12px; /* Rounded Corners */
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    
 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #FFA726; /* Darker Orange */
+  }
+  
+  .scroll-to-top::before {
+    content: '↑';
+    font-size: 30px;
+    color: white;
+  }
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #25D366;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .whatsapp-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .whatsapp-icon {
+    width: 35px;
+    height: 35px;
+  }
+  
+  
 /* Tablet and above (768px+) */
 @media (min-width: 768px) {
     .about{

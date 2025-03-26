@@ -8,10 +8,17 @@
     display: flex;
     /* border: 1px solid black; */
     height: 100vh;
-
+    
+   
+    
+   
 }
 
 .Image img{
     display: flex;
     width: 100%;
 }
+/* Tablet and above (768px+) */
+
+  
+  /* Mobile-specific styles (up to 767px) */
