@@ -16,7 +16,7 @@ const Header = () => {
              </div>
 
              <div className="inner1">
-             <h5>Home</h5>
+             <Link to="/"><h6>Home</h6></Link>
              <Link to="/about"><p>About</p></Link>
              <Link to="/rooms"><p>Rooms</p></Link>
              
