@@ -4,6 +4,7 @@ import about1 from '../../assets/images/about-11.jpg';
 import about2 from '../../assets/images/about-22.jpg';
 import about3 from '../../assets/images/about-33.jpeg';
 import about4 from '../../assets/images/about-44.jpeg';
+import { IoIosCall } from "react-icons/io";
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -54,7 +55,7 @@ const About = () => {
       </div>
       <div className="abt-info">
         <div className="abt-info1">
-          <h3>----about Us----</h3>
+          <h4>about Us ────</h4>
           <h2>Welcome to Seaside Resort Homestay</h2>
         </div>
         <div className="abt-info2">
@@ -70,11 +71,9 @@ const About = () => {
           <p>For booking, click on the call button</p>
         </div>
         <div className="abt-info4">
-          <img
-            src="https://cdn-icons-png.flaticon.com/256/10021/10021149.png"
-            alt="Call Icon"
-          />
-          <p>9449340027</p>
+        <IoIosCall className='iicon'/>
+          
+          <a href="tel:9449340027">9449340027</a>
         </div>
       </div>
     </div>

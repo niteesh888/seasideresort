@@ -1,129 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+
 *{
-    margin: 0;
-    padding: 0;
-    
+  margin: 0;
+  padding: 0;
+  /* width: 100%; */
 }
 
-.about3 h6{
+.text h6{
     display: flex;
     flex-wrap: wrap;
     color: orange;
     font-family: pacifico,cursive;
     font-size: 20px;
     justify-content: center;
-    /* margin-top: 100px; */
-
-}
-
-.about3 h4{
+    /* margin-top: 10px; */
+  
+  }
+  .text h4 {
     display: flex;
+    font-weight: bold;
     color: black;
     font-size: 40px;
     margin-top: 15px;
     justify-content: center;
-
-}
-
-
-
-.comment{
+  }
+.comment-slider {
+    /* width: 100%; */
+    overflow: hidden;
+    position: relative;
     display: flex;
-    margin-top: 30px;
-    border-top: .5px solid rgb(217, 210, 210);
-    /* justify-content: space-between; */
-    background-color: #F1F8FF;
+ 
+  }
 
+  .special {
+    display: flex; 
+     transition: transform 1s ease;
+    /* width: 400px; */
+    /* display: grid;
+    grid-template-columns: repeat(3, minmax(60px, 1fr));
+      flex-direction: row; */
+  }
 
-}
-.comment1{
-    flex: 1;
-    /* justify-content: space-between; */
-    border-right: 1px solid rgb(217, 210, 210);
-    border-left: .5px solid rgb(217,210,210);
-}
+  .comment-slide {
+    box-sizing: border-box;
+    padding: 20px;
+    /* width: 100%; */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
 
-.comment1 img{
-    display: flex;
-    height: 11%;
-    width: 13%;
-    padding-left: 20px;
-    padding-top: 10px;
-}
-.comment p{
-    display: flex;
-    padding-left: 20px;
-    color: black;
-}
-.comment h5{
-    display: flex;
-    font-size: 15px;
-    padding: 18px;
-    font-weight: normal;
-    text-align: start;
+  .comment-slide img {
+    width: 28px;
+    height: 50px;
+  }
+
+.comment-slide h5{
     color: #666565;
-    font-weight: 500;
+    /* padding: 20px; */
 }
-.profile img{
+.profile{
     display: flex;
-    /* height: 50%; */
-    width: 67%;
-    /* padding-left: 20px; */
-    margin-top: -2px;
+    margin-top: 1%;
     
 }
-.comment2{
-    flex: 1;
-    /* justify-content: space-between; */
-    border-right: .5px solid rgb(217,210,210);
-}
-.comment2 img{
-    display: flex;
-    height: 11%;
-    width: 13%;
-    padding-left: 20px;
-    padding-top: 10px;
-}
+  .profile img {
+    width: 50px;
+    height: 50px;
+    margin-top: 2%;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
 
-.avatar img{
-    display: flex;
-    width: 67%;
-    
-    
-}
+  .profile h4 {
+    margin-top: 3%;
+    font-size: 18px;
+    font-weight: bold;
+  }
 
-.comment3{
-    flex: 1;
-    /* justify-content: space-between; */
-    border-right: .5px solid rgb(217,210,210);
-}
-.comment3 img{
+  .text{
     display: flex;
-    height: 11%;
-    width: 13%;
-    padding-left: 20px;
-    padding-top: 10px;
-}
-
-.avatar2 img{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .media{
     display: flex;
-    width: 67%;
-    
-    
-}
-
-/* Tablet and above (768px+) */
-@media (min-width: 768px) {
-    .comment{
-        display: flex;
-        flex-direction: row;
-    }
-    }
+    /* border: 1px solid black; */
+    flex-direction: column;
+  }
   
-  /* Mobile-specific styles (up to 767px) */
-@media (max-width: 767px) {
-    .comment{
-        display: flex;
-        flex-direction: column;
-    
+  @media (max-width: 769px) {
+    .media{
+        display: flex; 
+        /* flex-direction: column; */
+        /* width: 500px;
     }
-}
+  }
+
+  @media (max-width: 769px) {
+    .comment-slide{
+        /* display: flex; */
+        width: 100%;
+        /* flex-direction: column; */
+        /* width: 500px; */
+    }
+  }
+  @media (max-width: 426px) {
+    .comment-slider{
+      width: 375px;
+    }
+    .comment-slide{
+      width: 375px;
+    }
+  }
+  @media (max-width: 375px) {
+    .comment-slider{
+      width: 375px;
+    }
+    .comment-slide{
+      width: 375px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .comment-slider{
+      width: 320px;
+    }
+    .comment-slide{
+      width: 320px;
+    }
+  }
+

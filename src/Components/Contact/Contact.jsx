@@ -1,76 +1,83 @@
-import React, { useState, useEffect } from "react";
-import "./Contact.css";
+import React, { useState } from 'react';
+import './Contact.css';
+import { IoCall } from "react-icons/io5";
+import { MdLocationOn } from "react-icons/md";
 
-const Footer = () => {
-  const [showButton, setShowButton] = useState(false);
+const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  });
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 300) {
-        setShowButton(true);
-      } else {
-        setShowButton(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+  const handleChange = (e) => {
+    const { name, textContent } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: textContent
+    }));
   };
 
-  const handleWhatsAppClick = () => {
-    const phoneNumber = "9449340027";
-    window.open(`https://wa.me/${phoneNumber}`, "_blank");
+  const handleFocus = (e) => {
+    if (e.target.textContent === e.target.getAttribute('data-placeholder')) {
+      e.target.textContent = '';
+    }
+  };
+
+  const handleBlur = (e) => {
+    if (e.target.textContent.trim() === '') {
+      e.target.textContent = e.target.getAttribute('data-placeholder');
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const { name, email, subject, message } = formData;
+    
+    if (!name.trim() || !email.trim() || !subject.trim() || !message.trim()) {
+      alert('Please fill in all the details.');
+      return;
+    }
+
+    console.log('Form Submitted:', formData);
+    alert('Message Sent Successfully!');
   };
 
   return (
-    <div className="footer">
-      <div className="footers1">
-        <div className="footer1">
-          <h2>Pages ----</h2>
-          <p>Home</p>
-          <p>About Us</p>
-          <p>Contact Us</p>
-          <p>Rooms</p>
-          <p>Privacy Policy</p>
+    <div className="outercontact">
+      <h6>─── Contact Us ───</h6>
+      <h2>Contact For Any Query</h2>
+      <div className="innercontact">
+        <div className="innercontact3">
+          <div className="subinnercontact3">
+            <h4>Contact Number ───</h4>
+            <p><IoCall className='iconn'/> +91 9449340027</p>
+          </div>
+          <div className="innercontact4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.120798989246!2d74.31439357506256!3d14.550275185918464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbec4bf68d474fb%3A0x69515b259eb92d85!2sSeaside%20Beach%20Resort%20Homestay!5e0!3m2!1sen!2sin!4v1711600000000" width="100%" height="370vh" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
-
-        <div className="footer2">
-          <h2>Contact ----</h2>
-          <h1>Dandebagh Road, Main Beach, Gokarna, Karnataka 581326</h1>
-          <p>+91 9449340027</p>
-        </div>
-
-        <div className="footer3">
-          <h2>Entry - Exit ----</h2>
-          <p>Check In - Check Out</p>
-          <p>11:00 AM - 10:00 AM</p>
+        <div className="innercontact2">
+          <div className="subinnercontact2">
+            <h4>Address ───</h4>
+            <p><MdLocationOn className='dandebagh'/> Dandebagh Road, Main Beach, Gokarna, Karnataka 581326</p>
+          </div>
+          <form className="innercontact5" onSubmit={handleSubmit}>
+            <div className="feedback1">
+              <div className="subfeedback2" contentEditable="true" name="name" onInput={handleChange} onFocus={handleFocus} onBlur={handleBlur} data-placeholder="Your Name">Your Name</div>
+              <div className="subfeedback1" contentEditable="true" name="email" onInput={handleChange} onFocus={handleFocus} onBlur={handleBlur} data-placeholder="Your Email">Your Email</div>
+            </div>
+            <div className="feedback2" contentEditable="true" name="subject" onInput={handleChange} onFocus={handleFocus} onBlur={handleBlur} data-placeholder="Subject">Subject</div>
+            <div className="feedback3" contentEditable="true" name="message" onInput={handleChange} onFocus={handleFocus} onBlur={handleBlur} data-placeholder="Message">Message</div>
+            <div className="sendmessage">
+              <button type="submit">SEND MESSAGE</button>
+            </div>
+          </form>
         </div>
       </div>
-
-      <div className="footers2">
-        <div className="end">
-          <a href="">© @copyright 2023</a>
-          <a href="">Developed By WT Infometics</a>
-        </div>
-      </div>
-
-      {showButton && (
-        <button className="scroll-to-top" onClick={scrollToTop}>
-          &#8679;
-        </button>
-      )}
-
-      <button className="whatsapp-button" onClick={handleWhatsAppClick}>
-        <img src="https://cdn-icons-png.flaticon.com/128/4494/4494494.png" alt="" className="whatsapp-icon" />
-      </button>
     </div>
   );
-};
+}
 
-export default Footer;
+export default Contact;

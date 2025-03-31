@@ -3,7 +3,7 @@ import Banner from '../Banner/Banner'
 import About from '../About/About'
 import Room from '../Rooms/Room'
 import Gallery from '../Gallery/Gallery'
-import Contact from '../Contact/Contact'
+import Footer from '../Footer/Footer'
 import Comments from '../Comments/Comments'
 
 
@@ -18,7 +18,7 @@ function MainPage() {
           <Room />
           <Gallery />
           <Comments />
-          <Contact />
+          {/* <Footer /> */}
           
           
         </div>

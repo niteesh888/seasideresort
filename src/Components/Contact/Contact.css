@@ -1,158 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-}
-.footer{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(1,1,37);
-}
-.footers1{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    /* height: 250px; */
-    margin-top: 50px;
-    background-color: rgb(1, 1, 37);
-}
-.footer2{
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-}
-
-.footer1{
-    flex: 1;
-    padding-left: 20px;
-    margin-top: 70px;
-}
-.footer h2{
-    display: flex;
-    color: orange;
-    padding-left: 10px;
-    font-family: pacifico,cursive;
-}
-.footer p{
-    display: flex;
-    margin-top: -2px;
-    padding: 10px;
-    color: white;
-    font-weight: 200;
-}
-
-.footer2{
-    flex: 1;
-    margin-top: 70px;
-}
-
-.footer2 h1{
-    display: flex;
-    text-align: start;
-    padding: 10px;
-    color: white;
-    font-size: 15px;
-    font-weight: normal;
-    margin-right: 80px;
-    margin-top: 5px;
 
 }
-
-.footer3{
-    flex: 1;
-    justify-content: space-between;
+.outercontact{
+    display: flex;
     /* border: 1px solid black; */
+    width: 98vw;
+    margin-left: 5px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    /* height: 91vh; */
+    padding-top: 20px;
+    background-color: #F1F8FF;
     flex-direction: column;
-    margin-top: 70px;
 
 }
-.footers2{
-    border-top: 1px solid rgb(181, 173, 173);
-    display: flex;
-    /* padding: 20px; */
-    margin-top: 40px;
-}
-.end{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    
-}
 
-.end a{
-    text-decoration: underline;
-    display: flex;
-    color: white;
-    padding: 1px;
 
-}
-.scroll-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #FFA726; /* Orange Color */
-    color: #FFA726;
-    border: none;
-    border-radius: 12px; /* Rounded Corners */
-    width: 60px;
-    height: 60px;
+.outercontact h6{
+    display: flex;
+    flex-wrap: wrap;
+    color: orange;
+    font-family: pacifico,cursive;
     font-size: 20px;
-    cursor: pointer;
-    display: flex;
-    
-
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: background-color 0.3s;
-  }
-  
-  .scroll-to-top:hover {
-    background-color: #FFA726; /* Darker Orange */
-  }
-  
-  .scroll-to-top::before {
-    content: '↑';
-    font-size: 30px;
-    color: white;
-  }
-  .whatsapp-button {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    background-color: #25D366;
-    border: none;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    display: flex;
     justify-content: center;
+    /* margin-top: 10px; */
+  
+}
+.outercontact h2 {
+    display: flex;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    margin-top: 15px;
+    font-family: "Nunito", sans-serif;
+    justify-content: center;
+  }
+.innercontact{
+    display: flex;
+    /* border: 1px solid black; */
+    /* height: 82vh; */
+    justify-content: space-evenly;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  .whatsapp-button:hover {
-    transform: scale(1.1);
-  }
-  
-  .whatsapp-icon {
-    width: 35px;
-    height: 35px;
-  }
-  
-  
-/* Tablet and above (768px+) */
-@media (min-width: 768px) {
-    .about{
-        display: flex;
-        flex-direction: row;
-    }
-  }
+    margin: 30px 80px 0 80px;
+    gap: 70px;
+}
+.innercontact1{
+    flex: 1;
+    /* border: 1px solid black; */
+}
+.innercontact2{
+    /* flex: 6; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+.subinnercontact2{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    height: 15vh;
+    width: 100%;
+}
+.subinnercontact2 h4{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: pacifico,cursive;
+    color: orange;
+    
+}
+.dandebagh{
+    color: orange;
+    margin-top: 10px;
+    height: 15px;
+    margin-right: 5px;
+}
+.innercontact3{
+    /* flex: 6; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /* margin-right: 5%; */
+    /* border: 1px solid black; */
+}
+.subinnercontact3{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    height: 15vh;
+    width: 100%;
+    
+}
+.subinnercontact3 h4{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: pacifico,cursive;
+    color: orange;
+    
+}
+.iconn{
+    color: orange;
+    margin-top: 10px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.innercontact4{
+    flex: 1;
+    display: flex;
+    /* margin-top: 36px; */
+    /* border: 1px solid black; */
+}
+.feedback1{
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    /* border: 1px solid #E3E8ED; */
+}
+.subfeedback1{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border: 1px solid #E3E8ED;
+}
+.subfeedback2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: white;
+    border: 1px solid #E3E8ED;
+}
+.feedback2{
+    display: flex;
+    height: 8vh;
+    border: 1px solid #E3E8ED;
+    margin-top: 15px;
+    padding-left: 10px;
+    align-items: center;
+    background-color: white;
+}
+.feedback3{
+    display: flex;
+    height: 24vh;
+    border: 1px solid #E3E8ED;
+    margin-top: 15px;
+    background-color: white;
+    padding-left: 10px;
+
+}
+.sendmessage{
+    display: flex;
+    /* border: 1px solid #E3E8ED; */
+    height: 8vh;
+    /* background-color: orange; */
+    justify-content: center;
+    margin-top: 15px;
+}
+.sendmessage button{
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    justify-content: center;
+    width: 100%;
+}
+.sendmessage button p{
+    color: white;
+    font-weight: bold;
+}
+
+.map a{
+    color: black;
+}
+
   /* Mobile-specific styles (up to 767px) */
-@media (max-width: 767px) {
-    .footers1{
+@media (max-width: 768px) {
+    .innercontact{
         display: flex;
         flex-direction: column;
+        margin: 0;
     
     }
 }
+
+@media (max-width: 768px) {
+    .feedback1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+            
+    }
+}
+
+@media (max-width: 768px) {
+    .subfeedback1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-left: 0px;
+        align-items: self-start;
+            
+    }
+}
+
+@media (max-width: 768px) {
+    .feedback2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 43px;
+        align-items: self-start;
+            
+    }
+}
+

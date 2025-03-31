@@ -9,6 +9,8 @@ import Gallery from './Components/Gallery/Gallery'
 import Comments from './Components/Comments/Comments'
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom'
 import MainPage from './Components/Routes/MainPage'
+import Footer from './Components/Footer/Footer'
+import Contact from './Components/Contact/Contact'
 function App() {
 
   return (
@@ -16,27 +18,17 @@ function App() {
       <div>
         <Router>
         <Header />
-        
-        {/* <Contact /> */}
-        <Routes>
+       <Routes>
           <Route path='/' element={<MainPage />} />
         <Route path='/about' element={<About />} />
         <Route path='/rooms' element={<Room />} />
-        {/* <Route path='/Contact' element={<Contact />} /> */}
+        <Route path='/Contact' element={<Contact />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/comments' element={<Comments />} />
         <Route path='/header' element={<Header />} />
-        
-        
-        {/* <Banner /> */}
-        {/* <About /> */}
-        {/* <Room /> */}
-        {/* <Gallery /> */}
-        {/* <Foodmenu /> */}
-        {/* <Chefs /> */}
         </Routes>
         
-        {/* <Contact /> */}
+        <Footer/>
         </Router>
         
       </div>

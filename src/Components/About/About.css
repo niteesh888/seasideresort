@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
 *{
     margin: 0;
     padding: 0;
@@ -6,14 +7,16 @@
 .about{
     /* border: none; */
     display: flex;
-    margin-top: 40px;
+    margin-top: 25px;
 }
-.abt-info1 h3{
+.abt-info1 h4{
     display: flex;
     font-size: 20px;
-    font-family: pacifico,cursive;
+    margin-top: 58px;
+    font-family: 'pacifico', cursive;
     color: orange;
     font-weight: bold;
+    margin-left: 15px;
 }
 .abt-imgs{
     /* border: 1px solid black; */
@@ -21,6 +24,7 @@
     /* height: 300px; */
     flex: 1;
     display:flex ;
+    margin-top: 60px;
     flex-direction: column;
     transition: transform 0.3s ease-in-out;
     
@@ -29,6 +33,7 @@
     display: flex;
     flex-direction: row;
     transition: transform 0.3s ease-in-out;
+    margin-left: 15px;
 }
 
 
@@ -126,11 +131,13 @@
     color: #FEA116;
     font-family: pasifico, cursive;
     font-size: x-large;
+    padding: 15px;
 }
 .abt-info1 h2{
     margin-top: 20px;
     font-size: 41px;
     color: black;
+    padding: 15px;
 }
 .abt-info1 b{
     color: #FEA116;
@@ -142,6 +149,7 @@
     margin-top: 30px;
     text-align: start;
     margin-top: -4px;
+    padding: 15px;
 }
 .abt-info2 p{
     margin-top:20px ;
@@ -177,8 +185,9 @@
 }
 .abt-info4{
     padding: 10px;
+    margin-left: 17px;
     width: 30%;
-    /* height: 200px; */
+    height: 50px;
     /* flex: 1; */
     display: flex;
     /* height: 10px; */
@@ -187,10 +196,12 @@
     justify-content: center;
     align-items: center;
 }
-.abt-info4 img{
-    width: 10%;
-    height: 40%;
-    margin-top: 0px;
+
+.iicon{
+    display: flex;
+    color: orange;
+    width: 15%;
+    margin-top:0px;
 }
 .abt-info4 p{
     font-size: 20px;
@@ -204,10 +215,23 @@
     /* justify-content: center; */
     
 }
+/* .abt-info4:hover{
+    color: rgb(228, 183, 100);
+} */
 .abt-info4:hover{
-    background-color: #f9e1be;
-    color: white;
+    background-color: #fbe8cc;
+    
 }
+.abt-info4 a{
+    font-weight: bold;
+    text-decoration: inherit;
+    color: #FEA116;
+}
+.abt-info4 a:hover{
+    color: black;
+
+}
+
 
 /* Tablet and above (768px+) */
 @media (min-width: 768px) {
@@ -236,3 +260,6 @@
       margin: auto;
     }
   } */
+
+
+  

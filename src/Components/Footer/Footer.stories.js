@@ -1,11 +1,11 @@
 
 import { fn } from "@storybook/test";
-import Contact from "./Contact";
+import Footer from "./Footer";
 
 
 
 export default {
-  component: Contact,
+  component: Footer,
   title: 'Contact',
   tags: ['autodocs'],
   //👇 Our exports that end in "Data" are not stories.

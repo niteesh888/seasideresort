@@ -3,7 +3,7 @@ import './Room.css'
 const Room =()=>{
     return(
         <div className="about3">
-              <p>-----Our Rooms-----</p>
+              <p>─── Our Rooms ───</p>
               <h2>Rooms</h2>
             
 
