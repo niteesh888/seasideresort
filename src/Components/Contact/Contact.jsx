@@ -46,12 +46,12 @@ const Contact = () => {
 
   return (
     <div className="outercontact">
-      <h6>─── Contact Us ───</h6>
+      <h6>━━ Contact Us ━━</h6>
       <h2>Contact For Any Query</h2>
       <div className="innercontact">
         <div className="innercontact3">
           <div className="subinnercontact3">
-            <h4>Contact Number ───</h4>
+            <h4>Contact Number ━━</h4>
             <p><IoCall className='iconn'/> +91 9449340027</p>
           </div>
           <div className="innercontact4">
@@ -60,7 +60,7 @@ const Contact = () => {
         </div>
         <div className="innercontact2">
           <div className="subinnercontact2">
-            <h4>Address ───</h4>
+            <h4>Address ━━</h4>
             <p><MdLocationOn className='dandebagh'/> Dandebagh Road, Main Beach, Gokarna, Karnataka 581326</p>
           </div>
           <form className="innercontact5" onSubmit={handleSubmit}>

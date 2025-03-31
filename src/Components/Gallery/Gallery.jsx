@@ -20,7 +20,7 @@ const images = [
 const Gallery = () => {
   return (
     <div className="gallery-container">
-      <h6>─── Our Gallery ───</h6>
+      <h6>━━ Our Gallery ━━</h6>
       <h2>Gallery</h2>
       <div className="gallery">
         {images.map((src, index) => (

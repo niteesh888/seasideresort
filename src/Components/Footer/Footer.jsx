@@ -36,7 +36,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footers1">
         <div className="footer1">
-          <h2>Pages ───</h2>
+          <h2>Pages ━━</h2>
           <Link to ={"/"}><p><FaAngleRight className="arrow"/>
           Home</p></Link>
           <Link to ={"/about"}><p><FaAngleRight className="arrow"/>
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
 
         <div className="footer2">
-          <h2>Contact ───</h2>
+          <h2>Contact ━━</h2>
           <h1>
             <MdLocationOn className="locationIcon" />
             Dandebagh Road, Main Beach, Gokarna, Karnataka 581326
@@ -67,7 +67,7 @@ const Footer = () => {
         </div>
 
         <div className="footer3">
-          <h2>Entry - Exit ───</h2>
+          <h2>Entry - Exit ━━</h2>
           <h1>Check In - Check Out</h1>
           <p>11:00 AM - 10:00 PM</p>
         </div>

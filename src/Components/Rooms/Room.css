@@ -170,23 +170,23 @@
         flex-direction: row;
     }
   }
-  @media (max-width: 425px) {
+  @media (max-width: 426px) {
     .rooms2{
         display: flex;
         flex-direction: column;
     }
   }
 
-  @media (max-width: 769px) {
+  @media (max-width: 376px) {
     .subrooms1 h3{
         display: flex;
-        font-size: 18px;
-        margin-left: 24px;
+        font-size: 13px;
+        margin-left: 16px;
         flex-direction: column;
     }
   }
 
-  @media (max-width: 377px) {
+  @media (max-width: 375px) {
     .subrooms1 h5{
         display: flex;
         font-size: 18px;
@@ -221,38 +221,38 @@
     }
   }
 
-  @media (max-width: 426px) {
+  @media (max-width: 320px) {
     .subrooms1 h5{
         display: flex;
-        font-size: 21px;
+        font-size: 13px;
         margin-left: 23px;
         flex-direction: column;
     }
   }
 
-  @media (max-width: 426px) {
+  @media (max-width: 320px) {
     .subrooms1 h3{
         display: flex;
-        font-size: 19px;
+        font-size: 12px;
         margin-left: 9px;
         flex-direction: column;
     }
   }
 
- @media (max-width: 426px) {
+ @media (max-width: 320px) {
     .subrooms3 h5{
         display: flex;
-        font-size: 21px;
+        font-size: 13px;
         margin-left: 8px;
         flex-direction: column;
     }
   } 
 
-  @media (max-width: 426px) {
+  @media (max-width: 320px) {
     .subrooms3 h3{
         display: flex;
-        font-size: 19px;
-        margin-left: 10px;
+        font-size: 12px;
+        margin-left: 3px;
         flex-direction: column;
     }
   } 

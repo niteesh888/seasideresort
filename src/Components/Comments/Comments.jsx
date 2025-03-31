@@ -38,7 +38,7 @@ const Comments = () => {
   return (
     <div className="about10">
       <div className="text">
-      <h6>─── Testimonial ───</h6>
+      <h6>━━ Testimonial ━━</h6>
       <h4>Our Clients Says!!!</h4>
       </div>
       

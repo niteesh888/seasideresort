@@ -262,4 +262,64 @@
   } */
 
 
-  
+  @media (max-width: 320px) {
+    .abt-img1 img{
+        width: 100%;
+        height: 135px;
+    }
+    .abt-img2 img{
+        width: 100%;
+        height: 107px;
+    }
+    .abt-img3 img{
+        width: 100%;
+        height: 107px;
+    }
+    .abt-img4 img{
+        width: 100%;
+        height: 135px;
+    }
+
+
+  }
+
+  @media (max-width: 376px) {
+    .abt-img1 img{
+        width: 100%;
+        height: 135px;
+    }
+    .abt-img2 img{
+        width: 100%;
+        height: 107px;
+    }
+    .abt-img3 img{
+        width: 100%;
+        height: 107px;
+    }
+    .abt-img4 img{
+        width: 100%;
+        height: 135px;
+    }
+
+
+  }
+  @media (max-width: 426px) {
+    .abt-img1 img{
+        width: 100%;
+        height: 135px;
+    }
+    .abt-img2 img{
+        width: 100%;
+        height: 107px;
+    }
+    .abt-img3 img{
+        width: 100%;
+        height: 107px;
+    }
+    .abt-img4 img{
+        width: 100%;
+        height: 135px;
+    }
+
+
+  }

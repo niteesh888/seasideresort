@@ -3,6 +3,7 @@
 *{
   margin: 0;
   padding: 0;
+  
   /* width: 100%; */
 }
 
@@ -20,14 +21,17 @@
     display: flex;
     font-weight: bold;
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 15px;
+    font-family: "Nunito",sans-serif;
+    font-weight: 700;
     justify-content: center;
+    margin-right: -2px;
   }
 .comment-slider {
-    /* width: 100%; */
     overflow: hidden;
     position: relative;
+    z-index:- 1;
     display: flex;
  
   }
@@ -44,9 +48,10 @@
   .comment-slide {
     box-sizing: border-box;
     padding: 20px;
-    /* width: 100%; */
     background-color: #f9f9f9;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
   }
 
   .comment-slide img {
@@ -72,7 +77,7 @@
   }
 
   .profile h4 {
-    margin-top: 3%;
+    margin-top: 5%;
     font-size: 18px;
     font-weight: bold;
   }

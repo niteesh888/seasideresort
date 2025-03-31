@@ -55,7 +55,7 @@ const About = () => {
       </div>
       <div className="abt-info">
         <div className="abt-info1">
-          <h4>about Us ────</h4>
+          <h4>about Us ━━</h4>
           <h2>Welcome to Seaside Resort Homestay</h2>
         </div>
         <div className="abt-info2">
