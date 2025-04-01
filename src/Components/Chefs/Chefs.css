@@ -12,6 +12,7 @@
     color: orange;
     font-family: pacific,cursive;
     
+    
 
 }
 .Chefs h1{
@@ -20,7 +21,8 @@
     color: black;
     justify-content: center;
     margin-top: 20px;
-    font-size: 40px
+    font-size: 40px;
+    
 }
 
 .Chefss{
@@ -44,6 +46,7 @@
     justify-content: space-between;
     border: 1px solid black;
     margin-right: 20px;
+
     
 }
 

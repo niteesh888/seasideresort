@@ -22,3 +22,8 @@
 
   
   /* Mobile-specific styles (up to 767px) */
+  @media (max-width: 768px) {
+    .Image{
+        height: 70vh;
+    }
+}

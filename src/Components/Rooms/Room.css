@@ -5,6 +5,10 @@
     margin: 0;
     font-family: sans-serif;
 }
+.about3{
+    width: 100%;
+
+}
 .about3 p{
     display: flex;
     flex-wrap: wrap;
@@ -90,12 +94,19 @@
     flex: 1;
     /* border: 1px solid black; */
 }
-.subrooms4 img{
+/* .subrooms4 img{
     display: flex;
     height: 100%;
     width: 100%;
     transition: transform 0.8s ease-in-out;
 
+
+} */
+
+.subrooms4 iframe{
+    display: flex;
+    width: 100%;
+    height: 40vh;
 
 }
 .subrooms4 img:hover{
@@ -148,11 +159,11 @@
     flex: 1;
     /* border: 1px solid black; */
 }
-.subrooms2 img{
+
+.subrooms2 iframe{
     display: flex;
     width: 100%;
-    height: 100%;
-    transition: transform 0.8s ease-in-out;
+    height: 40vh;
 
 }
 .subrooms2 img:hover{
@@ -186,11 +197,11 @@
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 376px) {
     .subrooms1 h5{
         display: flex;
-        font-size: 18px;
-        margin-left: 61px;
+        font-size: 14px;
+        margin-left: 31px;
         flex-direction: column;
     }
   }

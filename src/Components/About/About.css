@@ -238,6 +238,7 @@
     .about{
         display: flex;
         flex-direction: row;
+        margin-top: -54;
     }
   }
   /* Mobile-specific styles (up to 767px) */
@@ -245,6 +246,7 @@
     .about{
         display: flex;
         flex-direction: column;
+        margin-top: -30px;
     }
     .abt-info3{
         display: flex;
